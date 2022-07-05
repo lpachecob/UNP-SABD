@@ -1,0 +1,16 @@
+Queremos hacer un sistema para el comedor, incluirá esto:
+
+Horarios:
+Desayuno: 6:30 - 9:00
+Almuerzo: 12:00 - 14:00
+Cena: 18:00 - 20:00
+
+Entrega de Tickes:
+Los tickets del desayuno se reparten de 6:20 a 9:00, lo tickets del almuerzo se reparten de 11:50 a 14:00, 
+y la cena de 17:50 a 20:00
+
+Datos extra:
+*Conocer la cantidad de asientos o plazas del comedor, esto porque ingresarán de 10 en 10 alumnos, 
+y así podremos conocer cuantos asientes libres hay, y cada cuanto tiempo dejar ingresar alumnos.
+*En la puerta de ingreso, se escaneará el código QR y se verificará si pertenece al alumno que desea ingresar.
+*La cuenta del sistema, será con la misma cuenta que usamos para nuestro SIGA.
