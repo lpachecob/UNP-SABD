@@ -63,5 +63,54 @@ CREATE TABLE Dato(
 	plato_restante INT NOT NULL,
 	menu VARCHAR (200) NOT NULL
 );
-COMMENT ON DATABASE "Gestor_Ticket_Comedor"
-    IS 'Base de datos que almacenará la posición de los comensales del comedor de la universidad';
+
+--INSERCIÓN DE DATOS
+INSERT INTO Sistema_UNP
+VALUES 
+	('0512019144', '75310015', 'Olivares', 'Carrasco', 'Bryan','M','Ing. Informatica', '8', 'activo'),
+	('0512019142', '75310012', 'A', 'AA', 'AAA','M', 'Ing. Informatica', '8', 'activo'),
+	('0512019143', '75310013', 'B', 'BB', 'BBB','M', 'Ing. Informatica', '8', 'activo'),
+	('0512019146', '75310016', 'C', 'CC', 'CCC','M', 'Ing. Informatica', '8', 'activo'),
+	('0512019147', '75310017', 'D', 'DD', 'DDD','M', 'Ing. Informatica', '8', 'activo');
+	
+SELECT * FROM Sistema_UNP
+
+INSERT INTO Horario
+VALUES	
+	('6:50', '9:00', 'Desayuno'),
+	('11:50', '14:00', 'Almuerzo'),
+	('16:50', '19:00', 'Cena');
+
+SELECT * FROM Horario
+
+INSERT INTO Estado_Beca 
+VALUES	
+	('0512019144', 'beca completa', 100),
+	('0512019146', 'media beca', 5000),
+	('0512019147', 'sin beca', 400);
+
+SELECT * FROM Estado_Beca
+
+INSERT INTO Dato
+VALUES	
+	('Lunes','Desayuno',500,500,'Cafe con tamal'),
+	('Lunes','Almuerzo',500,500,'Aji de gallina'),
+	('Lunes','Cena',500,500,'Chaufa'),
+
+	('Martes','Desayuno',500,500,'Cafe con tamal'),
+	('Martes','Almuerzo',500,500,'Aji de gallina'),
+	('Martes','Cena',500,500,'Chaufa'),
+
+	('Miercoles','Desayuno',500,500,'Cafe con tamal'),
+	('Miercoles','Almuerzo',500,500,'Aji de gallina'),
+	('Miercoles','Cena',500,500,'Chaufa'),
+
+	('Jueves','Desayuno',500,500,'Cafe con tamal'),
+	('Jueves','Almuerzo',500,500,'Aji de gallina'),
+	('Jueves','Cena',500,500,'Chaufa'),
+
+	('Viernes','Desayuno',500,500,'Cafe con tamal'),
+	('Viernes','Almuerzo',500,500,'Aji de gallina'),
+	('Viernes','Cena',500,500,'Chaufa');
+	
+SELECT * FROM Dato
