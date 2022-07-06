@@ -101,16 +101,16 @@ VALUES
 	('Martes', 'Almuerzo', 500, 500, 'Arroz con pollo'),
 	('Martes', 'Cena', 500, 500, 'Arroz con pollo y mazamorra de piña'),
 
-	('Miercoles', 'Desayuno', 500, 500, 'Cafe con tamal'),
-	('Miercoles',' Almuerzo', 500, 500, 'Aji de gallina'),
-	('Miercoles', 'Cena', 500, 500, 'Chaufa'),
+	('Miercoles', 'Desayuno', 500, 500, 'Jugo y hotcakes'),
+	('Miercoles',' Almuerzo', 500, 500, 'Arroz con mariscos'),
+	('Miercoles', 'Cena', 500, 500, 'Lasaña'),
 
-	('Jueves', 'Desayuno', 500, 500, 'Cafe con tamal'),
-	('Jueves', 'Almuerzo', 500, 500, 'Aji de gallina'),
-	('Jueves', 'Cena', 500, 500, 'Chaufa'),
+	('Jueves', 'Desayuno', 500, 500, 'Anis con pan'),
+	('Jueves', 'Almuerzo', 500, 500, 'Pescado frito con arroz'),
+	('Jueves', 'Cena', 500, 500, 'Lomo saltado y arroz con leche'),
 
-	('Viernes', 'Desayuno', 500, 500, 'Cafe con tamal'),
-	('Viernes', 'Almuerzo', 500, 500, 'Aji de gallina'),
-	('Viernes', 'Cena', 500, 500, 'Chaufa');
+	('Viernes', 'Desayuno', 500, 500, 'Cafe pasado con pan con queso y aceitunas'),
+	('Viernes', 'Almuerzo', 500, 500, 'Tallarines con huancaina con harto queso'),
+	('Viernes', 'Cena', 500, 500, 'Mazamorra morada');
 	
 SELECT * FROM Dato
