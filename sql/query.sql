@@ -68,10 +68,10 @@ CREATE TABLE Dato(
 INSERT INTO Sistema_UNP
 VALUES 
 	('0512019144', '75310015', 'Olivares', 'Carrasco', 'Bryan','M','Ing. Informatica', '8', 'activo'),
-	('0512019142', '75310012', 'A', 'AA', 'AAA','M', 'Ing. Informatica', '8', 'activo'),
-	('0512019143', '75310013', 'B', 'BB', 'BBB','M', 'Ing. Informatica', '8', 'activo'),
-	('0512019146', '75310016', 'C', 'CC', 'CCC','M', 'Ing. Informatica', '8', 'activo'),
-	('0512019147', '75310017', 'D', 'DD', 'DDD','M', 'Ing. Informatica', '8', 'activo');
+	('0512019142', '75310012', 'Madrid', 'Reyes', 'Kevin','Jesús', 'Ing. Informatica', '8', 'activo'),
+	('0512019143', '75310013', 'Pacheco', 'Brophy', 'Luis','Ernesto', 'Ing. Informatica', '8', 'activo'),
+	('0512019146', '75310016', 'Aponte', 'Abarca', 'Pierina','Reneé', 'Ing. Informatica', '8', 'activo'),
+	('0512019147', '75310017', 'Nanquén', 'Tello', 'Ruth','Carolina', 'Ing. Informatica', '8', 'activo');
 	
 SELECT * FROM Sistema_UNP
 
@@ -93,24 +93,24 @@ SELECT * FROM Estado_Beca
 
 INSERT INTO Dato
 VALUES	
-	('Lunes','Desayuno',500,500,'Cafe con tamal'),
-	('Lunes','Almuerzo',500,500,'Aji de gallina'),
-	('Lunes','Cena',500,500,'Chaufa'),
+	('Lunes', 'Desayuno', 500, 500, 'Café con tamal'),
+	('Lunes', 'Almuerzo', 500, 500, 'Ají de gallina'),
+	('Lunes', 'Cena', 500, 500, 'Chaufa'),
 
-	('Martes','Desayuno',500,500,'Cafe con tamal'),
-	('Martes','Almuerzo',500,500,'Aji de gallina'),
-	('Martes','Cena',500,500,'Chaufa'),
+	('Martes', 'Desayuno', 500, 500, 'Leche con avena'),
+	('Martes', 'Almuerzo', 500, 500, 'Arroz con pollo'),
+	('Martes', 'Cena', 500, 500, 'Arroz con pollo y mazamorra de piña'),
 
-	('Miercoles','Desayuno',500,500,'Cafe con tamal'),
-	('Miercoles','Almuerzo',500,500,'Aji de gallina'),
-	('Miercoles','Cena',500,500,'Chaufa'),
+	('Miercoles', 'Desayuno', 500, 500, 'Cafe con tamal'),
+	('Miercoles',' Almuerzo', 500, 500, 'Aji de gallina'),
+	('Miercoles', 'Cena', 500, 500, 'Chaufa'),
 
-	('Jueves','Desayuno',500,500,'Cafe con tamal'),
-	('Jueves','Almuerzo',500,500,'Aji de gallina'),
-	('Jueves','Cena',500,500,'Chaufa'),
+	('Jueves', 'Desayuno', 500, 500, 'Cafe con tamal'),
+	('Jueves', 'Almuerzo', 500, 500, 'Aji de gallina'),
+	('Jueves', 'Cena', 500, 500, 'Chaufa'),
 
-	('Viernes','Desayuno',500,500,'Cafe con tamal'),
-	('Viernes','Almuerzo',500,500,'Aji de gallina'),
-	('Viernes','Cena',500,500,'Chaufa');
+	('Viernes', 'Desayuno', 500, 500, 'Cafe con tamal'),
+	('Viernes', 'Almuerzo', 500, 500, 'Aji de gallina'),
+	('Viernes', 'Cena', 500, 500, 'Chaufa');
 	
 SELECT * FROM Dato
