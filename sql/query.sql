@@ -4,4 +4,4 @@
 CREATE DATABASE "Gestor_Ticket_Comedor";
 
 COMMENT ON DATABASE "Gestor_Ticket_Comedor"
-    IS 'base de datos que almacenará la posición de los comensales del comedor de la universidad';
+    IS 'Base de datos que almacenará la posición de los comensales del comedor de la universidad';
