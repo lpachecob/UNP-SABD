@@ -67,7 +67,7 @@ CREATE TABLE Dato(
 --INSERCIÓN DE DATOS
 INSERT INTO Sistema_UNP
 VALUES 
-	('0512019144', '75310015', 'Huamachuca', 'Tirado', 'Carlos','M','Ing. Informatica', '9', 'inactivo'),
+	('0512019144', '75310015', 'Huamachuca', 'Tiradito', 'Carlos','M','Ing. Informatica', '9', 'inactivo'),
 	('0512019142', '75310012', 'Madrid', 'Reyes', 'Kevin Jesús','M', 'Ing. Pesquera', '2', 'inactivo'),
 	('0512019143', '75310013', 'Pacheco', 'Brophy', 'Luis Ernesto','M', 'Ing. Minas', '1', 'inactivo'),
 	('0512019146', '75310016', 'Aponte', 'Abarca', 'Pierina Reneé','F', 'Ing. Mecatronica', '9', 'activo'),
