@@ -67,11 +67,12 @@ CREATE TABLE Dato(
 --INSERCIÓN DE DATOS
 INSERT INTO Sistema_UNP
 VALUES 
-	('0512019144', '75310015', 'Olivares', 'Carrasco', 'Bryan','M','Ing. Informatica', '8', 'activo'),
-	('0512019142', '75310012', 'Madrid', 'Reyes', 'Kevin','Jesús', 'Ing. Informatica', '8', 'activo'),
-	('0512019143', '75310013', 'Pacheco', 'Brophy', 'Luis','Ernesto', 'Ing. Informatica', '8', 'activo'),
-	('0512019146', '75310016', 'Aponte', 'Abarca', 'Pierina','Reneé', 'Ing. Informatica', '8', 'activo'),
-	('0512019147', '75310017', 'Nanquén', 'Tello', 'Ruth','Carolina', 'Ing. Informatica', '8', 'activo');
+	('0512019144', '75310015', 'Huamachuca', 'Tirado', 'Carlos','M','Ing. Informatica', '9', 'inactivo'),
+	('0512019142', '75310012', 'Madrid', 'Reyes', 'Kevin Jesús','M', 'Ing. Pesquera', '2', 'inactivo'),
+	('0512019143', '75310013', 'Pacheco', 'Brophy', 'Luis Ernesto','M', 'Ing. Minas', '1', 'inactivo'),
+	('0512019146', '75310016', 'Aponte', 'Abarca', 'Pierina Reneé','F', 'Ing. Mecatronica', '9', 'activo'),
+	('0512019146', '75310016', 'Carmesí', 'Alvarado', 'Elva','F', 'Ing. Quimica', '5', 'activo'),
+	('0512019147', '75310017', 'Nanquén', 'Tello', 'Ruth Carolina','F', 'Ing. Industrial', '1', 'activo');
 	
 SELECT * FROM Sistema_UNP
 
